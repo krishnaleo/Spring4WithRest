@@ -29,7 +29,7 @@ public class HelloWorldConfiguration
 	    dataSource.setDriverClassName("net.sourceforge.jtds.jdbc.Driver");
 	    dataSource.setUrl("jdbc:jtds:sqlserver://localhost:1433");
 	    dataSource.setUsername("evolve");
-	    dataSource.setPassword("evolve@123");
+	    dataSource.setPassword("");
 	  
 	    return dataSource;
 	}
